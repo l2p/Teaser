@@ -84,7 +84,7 @@ $(document).ready(function () {
 			'ui-state-active');
 	});
 	$('#countdown').countdown({
-		until: '-1m +1d',
+		until: '+75d',
 		timezone: -4, 
 		layout: '{d<}<div class="span3"><div class="digit-container">{dn}<span class="label-container">{dl}</span></div></div>{d>}{h<}<div class="span3"><div class="digit-container">{hn}<span class="label-container">{hl}</span></div></div>{h>}{m<}<div class="span3"><div class="digit-container">{mn}<span class="label-container">{ml}</span></div></div>{m>}{s<}<div class="span3"><div class="digit-container">{sn}<span class="label-container">{sl}</span></div></div>{s>}',
 		timeSeparator: '',
@@ -118,8 +118,8 @@ $(document).ready(function () {
 		});
 	}, 12000);
 	$('#map_canvas').gmap({
-		'center': new google.maps.LatLng(40.77288, -73.98299),
-		'zoom': 17,
+		'center': new google.maps.LatLng(50.2936938, 2.7891351),
+		'zoom': 16,
 		'mapTypeControl': false,
 		'navigationControl': false,
 		'streetViewControl': false,
@@ -141,19 +141,17 @@ $(document).ready(function () {
 	});
 	var image = {
 		url: 'images/marker.png',
-		size: new google.maps.Size(51, 63),
-		origin: new google.maps.Point(0, 0),
-		anchor: new google.maps.Point(26, 63)
+		size: '30%',
 	};
 	$('#map_canvas').gmap().bind('init', function () {
 		$('#map_canvas').gmap('addMarker', {
 			'id': 'marker-1',
-			'position': '40.77288,-73.98299',
+			'position': '50.2936938,2.7891351',
 			'bounds': false,
 			'icon': image
 		}).click(function () {
 			$('#map_canvas').gmap('openInfoWindow', {
-				'content': '<h4>Eventify</h4><p><strong>Downtown Conference Center</strong><br>Columbus Ave. New York, NY 10019 </p>'
+				'content': '<h4>Conf IT</h4><p><strong>Artois Expo - Arras</strong><br>50 Avenue Roger Salengro, 62223 Saint-Laurent-Blangy </p>'
 			}, this);
 		});
 	});
