@@ -428,7 +428,7 @@ select:focus:invalid:focus {
 .top-bar .navbar .nav > li > a:hover,
 .top-bar.alt .navbar .nav > li > a:hover {
     color: #fff;
-    background: #48A3A6 !important;
+    background: #592941 !important;
 }
 
 .top-bar .navbar .nav > li > a:focus,
@@ -501,6 +501,17 @@ nav select {
     height: 660px;
     margin: 0 auto;
     padding: 0;
+}
+
+.brand-logo {
+  padding-top: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.brand-logo img {
+  width: 33%;
+  margin: 0 auto;
 }
 
 #about,
