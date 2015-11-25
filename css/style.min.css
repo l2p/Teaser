@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 24px;
     color: #393e46 !important;
@@ -36,7 +36,7 @@ a:hover {
 h1,
 h2 {
     color: inherit;
-    font-family: 'Roboto Slab Bold';
+    /*font-family: 'Roboto Slab Bold';*/
     font-weight: bold;
     line-height: 40px;
     margin: 5px 0 20px;
