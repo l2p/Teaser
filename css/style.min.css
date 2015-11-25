@@ -505,6 +505,7 @@ nav select {
 
 .brand-logo {
   padding-top: 200px;
+  margin-bottom: 50px;
   width: 100%;
   text-align: center;
 }
@@ -513,6 +514,15 @@ nav select {
   width: 33%;
   margin: 0 auto;
 }
+
+.html5-video-player {
+	background-color: #F03B4F;
+}
+
+.caption iframe {
+  margin-top: 50px;
+}
+
 
 #about,
 #register,
