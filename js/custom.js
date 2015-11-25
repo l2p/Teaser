@@ -65,7 +65,7 @@ $(document).ready(function () {
 	})
 	$("[rel=tooltip]").tooltip();
 	$("[data-rel=tooltip]").tooltip();
-	$('#intro').parallax("50%", 0.1);
+	// $('#intro').parallax("50%", 0.1);
 	$('#venue').parallax("50%", 0.02);
 	$(".speakers-carousel").carousel({
 		dispItems: 1,
@@ -85,13 +85,13 @@ $(document).ready(function () {
 	});
 	$('#countdown').countdown({
 		until: '+75d',
-		timezone: -4, 
+		timezone: -4,
 		layout: '{d<}<div class="span3"><div class="digit-container">{dn}<span class="label-container">{dl}</span></div></div>{d>}{h<}<div class="span3"><div class="digit-container">{hn}<span class="label-container">{hl}</span></div></div>{h>}{m<}<div class="span3"><div class="digit-container">{mn}<span class="label-container">{ml}</span></div></div>{m>}{s<}<div class="span3"><div class="digit-container">{sn}<span class="label-container">{sl}</span></div></div>{s>}',
 		timeSeparator: '',
 		isRTL: false,
 		format: 'dHMS',
 		alwaysExpire: true,
-		onExpiry: liftOff 
+		onExpiry: liftOff
 	});
 	function liftOff() {
 		$('.hasCountdown').css({
@@ -155,5 +155,5 @@ $(document).ready(function () {
 			}, this);
 		});
 	});
-	// end		
+	// end
 })
