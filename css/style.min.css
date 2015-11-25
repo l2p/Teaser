@@ -428,7 +428,7 @@ select:focus:invalid:focus {
 .top-bar .navbar .nav > li > a:hover,
 .top-bar.alt .navbar .nav > li > a:hover {
     color: #fff;
-    background: #592941 !important;
+    background: #493657 !important;
 }
 
 .top-bar .navbar .nav > li > a:focus,
@@ -495,7 +495,7 @@ nav select {
 }
 
 #intro {
-    background: #592941;
+    background: #493657;
     color: white;
     min-height: 300px;
     height: 660px;
